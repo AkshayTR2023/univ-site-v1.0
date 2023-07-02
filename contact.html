@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+     
+  
+     #form-section {
+        margin: 300px auto;
+        width: fit-content;
+        border: 1px solid black;
+        padding: 30px;
+        background-color: lightsteelblue;
+      }
+      td {
+        padding: 0.2em 1em;
+      }
+    </style>
+</head>
+<body>
+    
+    <div id="form-section">
+        <h1>Contact Us </h1>
+        <form>
+            <table>
+               
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="name" placeholder="Enter Your Name"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="email" placeholder="Enter Your Email"></td>
+                </tr>
+               
+                <tr>
+                    <td>Subject</td>
+                    <td><select name="subject">
+                          <option value="fees">Fees Details</option>
+                          <option value="Info">Further Info</option>
+                          <option value="issue">Report Issue</option>
+                      </select>
+                      </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>    
+</body>
+</html>

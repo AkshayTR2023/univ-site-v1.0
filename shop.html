@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <style>
+      table {
+        margin: 100px auto;
+        border-collapse: collapse;
+        text-align: center;
+        width: 90%;
+        background-color: lightcyan;
+      }
+      th,
+      td {
+        border: 1px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div class="items">
+       
+        <table>
+            <h1 style="text-align: center;">Select Books</h1>
+          <tr style="background-color: lig">
+            <th>Item ID</th>
+            <th>Item Name</th>
+            <th>Item Price (INR)</th>
+            <th>Image</th>
+            <th>Select items</th>
+          </tr>
+
+          <tr>
+            <td>1</td>
+            <td>Java</td>
+            <td>4500</td>
+            <td><img src="./images/java.jpg" height="100px" /></td>
+            <td><input type="checkbox" name="cart" value="1" />Add to cart</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>C</td>
+            <td>3000</td>
+            <td><img src="./images/c.jpg" height="100px" /></td>
+            <td><input type="checkbox" name="cart" value="2" />Add to cart</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>C++</td>
+            <td>3500</td>
+            <td><img src="./images/cpp.jpg" height="100px" /></td>
+            <td><input type="checkbox" name="cart" value="3" />Add to cart</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Python</td>
+            <td>4000</td>
+            <td><img src="./images/python.jpg" height="100px" /></td>
+            <td><input type="checkbox" name="cart" value="4" />Add to cart</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Javascript</td>
+            <td>3500</td>
+            <td><img src="./images/js.jpg" height="100px" /></td>
+            <td><input type="checkbox" name="cart" value="5" />Add to cart</td>
+          </tr>
+          <tr>
+            <td colspan="5" align="right"  ><input type="submit" value="Goto Cart"style="position: relative; right:30px"></td>
+          </tr>
+        </table>
+      </div>
+    </form>
+  </body>
+</html>
